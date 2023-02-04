@@ -15,5 +15,6 @@ func solution(_ n:Int) -> Int {
     } else {
         return n/7 + 1
     }
+    
 
 }
