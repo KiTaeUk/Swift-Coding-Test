@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+func solution(_ n:Int, _ t:Int) -> Int {
+    var res = Double(n) * pow(2.0, Double(t))
+    
+    return Int(res)
+}
